@@ -14,7 +14,7 @@ on:
 env:
   COVERAGE: '1'
   key: cache-v0.1
-  php_extensions: ''
+  php_extensions: 'json'
 
 jobs:
   lint:
