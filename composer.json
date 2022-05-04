@@ -6,7 +6,7 @@
         "ccm",
         "testing"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "http://github.com/leads-su/ccm-testing-package",
     "license": "MIT",
     "authors": [
@@ -41,5 +41,8 @@
         "psr": [
             "vendor/bin/php-cs-fixer fix"
         ]
+    },
+    "require-dev": {
+        "php-coveralls/php-coveralls": "^2.5"
     }
 }
