@@ -1,5 +1,5 @@
 {
-    "name": "ccm/testing",
+    "name": "leads-su/ccm-testing",
     "description": "CCM package used to provide environment for testing other packages",
     "keywords": [
         "leads",
