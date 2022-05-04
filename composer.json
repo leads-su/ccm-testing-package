@@ -1,0 +1,45 @@
+{
+    "name": "ccm/testing",
+    "description": "CCM package used to provide environment for testing other packages",
+    "keywords": [
+        "leads",
+        "ccm",
+        "testing"
+    ],
+    "version": "1.0.0",
+    "homepage": "http://github.com/leads-su/ccm-testing-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhivolupov Ivan",
+            "email": "iz@leads.su",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0 <8.2",
+        "ext-json": "*",
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "mockery/mockery": "^1.5",
+        "orchestra/testbench": "^6.24",
+        "phpunit/phpunit": "^9.5",
+        "sempro/phpunit-pretty-print": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConsulConfigManager\\Testing\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "scripts": {
+        "psr": [
+            "vendor/bin/php-cs-fixer fix"
+        ]
+    }
+}
