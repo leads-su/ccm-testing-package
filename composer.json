@@ -6,7 +6,7 @@
         "ccm",
         "testing"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "http://github.com/leads-su/ccm-testing-package",
     "license": "MIT",
     "authors": [
@@ -19,9 +19,9 @@
     "require": {
         "php": ">=8.0 <8.2",
         "ext-json": "*",
-        "friendsofphp/php-cs-fixer": "^3.5",
+        "friendsofphp/php-cs-fixer": "^3.8",
         "mockery/mockery": "^1.5",
-        "orchestra/testbench": "^6.24",
+        "orchestra/testbench": "^7.5",
         "phpunit/phpunit": "^9.5",
         "sempro/phpunit-pretty-print": "^1.4"
     },
